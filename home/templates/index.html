@@ -14,9 +14,9 @@
     <script>
         $(document).ready(function () {
             $("#fade-in").hide().delay().fadeIn(600);
-            $("#tony").hide().delay().fadeIn().animate({width: '+=15%', height: '+=15%'});
-            $(".slide-in-from-right").hide().delay(1200).fadeIn().animate({right: '75%', opacity: '1.0'}, "slow");
-            $(".slide-in-from-left").hide().delay(1200).fadeIn().animate({left: '40%', opacity: '1.0'}, "slow");
+            $("#tony").hide().delay().fadeIn().animate({ width: '+=15%', height: '+=15%' });
+            $(".slide-in-from-right").hide().delay(1200).fadeIn().animate({ right: '75%', opacity: '1.0' }, "slow");
+            $(".slide-in-from-left").hide().delay(1200).fadeIn().animate({ left: '40%', opacity: '1.0' }, "slow");
             $("#skills").hide().delay(1200).fadeIn();
             $("#education").hide().delay(1200).fadeIn();
             $(".footer").hide().delay(1200).fadeIn();
@@ -76,20 +76,6 @@
                 <li><img src="{% static 'aws.png' %}" width="35px" height="35px">Amazon Web Services</li>
             </ul>
         </div>
-        <div id="education">
-            <h4>Education</h4>
-            <ul>
-                <li><a href="https://codingdojo.com">Coding Dojo</a> | 2020 | Learned Web Fundamentals and Python</li>
-                <li><a href="https://lineman.edu/">Northwest Lineman College</a> | 2017 | Obtained Elecrical Lineworker
-                    Diploma</li>
-                <li><a href="https://www.cde.ca.gov/schooldirectory/details?cdscode=45752670120170">Academy of
-                        Personalized Learning</a> | 2014 | Earned High School Diploma</li>
-            </ul>
-
-        </div>
-      
-
-
     </main>
     <footer class="footer">
         <p>Copywright @2020 | All rights reserved</p>
@@ -103,7 +89,6 @@
                 height="50px"></a>
         <a href="https://twitter.com/frosty776"><img src="{% static 'twitter.webp' %}" width="50px" height="50px"></a>
     </footer>
-
 </body>
 
 </html>
